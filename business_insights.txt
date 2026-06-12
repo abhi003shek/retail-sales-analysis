@@ -1,0 +1,136 @@
+================================================================
+        RETAIL SALES ANALYSIS — BUSINESS INSIGHTS REPORT
+        Dataset: Superstore | Records: 9,994 | Tool: MySQL
+        Author: Abhishek Mishra
+================================================================
+
+----------------------------------------------------------------
+1. OVERALL PERFORMANCE SUMMARY
+----------------------------------------------------------------
+Total Sales        :  $2,297,200.86
+Total Profit       :  $286,397.02
+Profit Margin      :  12.47%
+Total Orders       :  9,994
+Units Sold         :  37,873
+Average Discount   :  15.6%
+
+Insight: Despite strong sales volume, the profit margin of 12.47%
+suggests that heavy discounting (avg 15.6%) is eating into profits.
+Reducing unnecessary discounts could significantly improve margins.
+
+----------------------------------------------------------------
+2. CATEGORY PERFORMANCE
+----------------------------------------------------------------
+| Category        | Sales     | Profit     | Status     |
+|-----------------|-----------|------------|------------|
+| Technology      | ~$836K    | Highest    | STAR       |
+| Office Supplies | ~$719K    | Medium     | STABLE     |
+| Furniture       | ~$742K    | Near Zero  | WARNING    |
+
+Insight: Furniture generates high sales (~$742K) but almost zero
+profit. This is a red flag — the discount strategy in Furniture
+is likely too aggressive. Technology is the clear profit driver.
+
+----------------------------------------------------------------
+3. LOSS-MAKING PRODUCTS — URGENT ATTENTION NEEDED
+----------------------------------------------------------------
+| Product    | Total Loss  |
+|------------|-------------|
+| Tables     | -$17,725    |
+| Bookcases  | -$3,473     |
+| Supplies   | -$1,189     |
+
+Insight: Tables alone lost $17,725. These products are being sold
+at a loss, likely due to high discounts. Recommended actions:
+  - Reduce discounts on Tables and Bookcases immediately
+  - Review supplier costs for these categories
+  - Consider removing them from high-discount promotions
+
+----------------------------------------------------------------
+4. REGIONAL ANALYSIS
+----------------------------------------------------------------
+| Region  | Total Sales | Total Profit | Observation        |
+|---------|-------------|--------------|---------------------|
+| West    | ~$725K      | Highest      | Best performing     |
+| East    | ~$678K      | High         | Strong market       |
+| Central | ~$501K      | Very Low     | Discount problem    |
+| South   | ~$391K      | Medium       | Growth opportunity  |
+
+Insight: Central region has decent sales but very low profit —
+this strongly suggests over-discounting in this region. A pricing
+audit for Central region is recommended.
+
+----------------------------------------------------------------
+5. TOP STATES BY SALES
+----------------------------------------------------------------
+1. California   — ~$457,688
+2. New York     — ~$310,876
+3. Texas        — ~$170,188
+4. Washington   — ~$138,641
+5. Pennsylvania — ~$116,512
+
+Insight: California + New York alone = ~33% of total revenue.
+These are high-value markets and should receive priority in
+inventory planning and marketing spend.
+
+----------------------------------------------------------------
+6. TOP PRODUCTS BY SALES
+----------------------------------------------------------------
+1. Phones     — ~$330K
+2. Chairs     — ~$328K
+3. Storage    — ~$223K
+4. Tables     — ~$206K
+5. Binders    — ~$203K
+
+Insight: Phones and Chairs are top sellers. However, Tables appear
+in both top sales AND top loss — meaning high volume but sold at
+a loss. This needs immediate pricing correction.
+
+----------------------------------------------------------------
+7. CUSTOMER SEGMENT ANALYSIS
+----------------------------------------------------------------
+| Segment      | Sales Share |
+|--------------|-------------|
+| Consumer     | 50.5%       |
+| Corporate    | 30.7%       |
+| Home Office  | 18.7%       |
+
+Insight: Consumer segment is the largest (50.5%). Marketing and
+promotional campaigns should be primarily targeted at consumers.
+Home Office segment (18.7%) has growth potential — especially
+post-pandemic with remote work trends.
+
+----------------------------------------------------------------
+8. SHIPPING MODE ANALYSIS
+----------------------------------------------------------------
+Standard Class is the most used shipping mode.
+Same Day shipping has the lowest order volume.
+
+Insight: Customers prefer Standard Class likely due to lower cost.
+Offering incentives for higher-margin shipping modes could improve
+delivery experience and revenue.
+
+----------------------------------------------------------------
+9. KEY RECOMMENDATIONS FOR MANAGEMENT
+----------------------------------------------------------------
+1. REDUCE DISCOUNTS on Furniture category — especially Tables
+   and Bookcases which are generating consistent losses.
+
+2. INVEST MORE in Technology category — highest profit margin
+   and strong sales performance.
+
+3. FOCUS MARKETING on California and New York — these two states
+   drive one-third of total revenue.
+
+4. AUDIT CENTRAL REGION pricing strategy — sales are decent but
+   profits are disproportionately low.
+
+5. TARGET CONSUMER SEGMENT with loyalty programs — they represent
+   50%+ of the customer base.
+
+6. REVIEW HOME OFFICE SEGMENT — untapped growth potential given
+   the rise of remote work.
+
+================================================================
+                        END OF REPORT
+================================================================
